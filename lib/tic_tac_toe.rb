@@ -24,7 +24,8 @@ class TicTacToe
   end
 
   def input_to_index(input)
-    @board[input.to_i-1]
+    index = input.to_i - 1]
+    @board[index]
   end
 
 end
